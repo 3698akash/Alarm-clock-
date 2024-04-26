@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Alarm Clock</title>
+</head>
+<body>
+
+	<div class="page-title">
+		<h1>ALARM CLOCK⏰</h1>
+	</div>
+
+	<div class="main-container d-flex">
+		<div class="clock-container d-flex">
+			<div class = "current-time mb"></div>
+
+            <form class="alarm-form mb">
+		        <div>
+		        <select class="hours"></select>
+		        <select class="minutes"></select>
+		        <select class="seconds"></select>
+		        <select class = "am-pm">
+			        <option>AM</option>
+			        <option>PM</option>
+		        </select>
+		        <button class="btn submit-button" id = "submitButton" type = "submit">Set Alarm</button>
+		        </div>
+	        </form>
+
+            <div class="alarm-container-title mb">ALARMS</div>
+	        <div class = "alarm-container"></div>
+		</div>
+	</div>
+
+
+	<script src="script.js"></script>
+</body>
+</html>
